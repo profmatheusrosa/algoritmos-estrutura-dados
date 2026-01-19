@@ -23,7 +23,7 @@ Como seu sistema lida com o aumento de usuários?
 - **Escalabilidade Vertical (Scale Up):** Adicionar mais RAM/CPU a uma única máquina. Tem limite físico.
 - **Escalabilidade Horizontal (Scale Out):** Adicionar mais máquinas ao pool de recursos. Teoricamente ilimitado, mas complexo de gerenciar.
 
-[IMAGEM_SCALING_HORIZ_VS_VERT]
+![Escalabilidade Horizontal vs Vertical](../imagens/imagem_scaling_horiz_vs_vert.png)
 
 ### Disponibilidade vs Consistência
 **Teorema CAP:** Em um sistema distribuído, você só pode ter 2 de 3:
@@ -31,7 +31,7 @@ Como seu sistema lida com o aumento de usuários?
 2.  **A**vailability (Disponibilidade - O sistema sempre responde)
 3.  **P**artition Tolerance (Resistência a falhas de rede)
 
-[IMAGEM_CAP_THEOREM]
+![Teorema CAP](../imagens/imagem_cap_theorem.png)
 
 ---
 
@@ -52,7 +52,7 @@ Usa-se memória RAM (Redis, Memcached) para guardar dados acessados frequentemen
 ### Load Balancers (Balanceadores de Carga)
 Distribuem o tráfego de entrada entre vários servidores para evitar sobrecarga.
 
-[IMAGEM_LOAD_BALANCER]
+![Load Balancer](../imagens/imagem_load_balancer.png)
 
 ### Comunicação
 - **REST:** Padrão clássico HTTP.

@@ -22,7 +22,7 @@ Recursão ocorre quando uma função chama a si mesma. Para não chamar infinita
 ### A Pilha de Chamadas (Call Stack)
 Cada vez que uma função é chamada, o computador "empilha" o estado atual. Quando ela retorna, ele "desempilha".
 
-[IMAGEM_PILHA_RECURSAO]
+![Pilha de Recursão](../imagens/imagem_pilha_recursao.png)
 
 ```python
 def fatorial(n):
@@ -45,7 +45,7 @@ Backtracking é uma técnica para explorar sistematicamente todas as soluções 
 
 **Poda (Pruning):** Se percebermos cedo que um caminho não vai dar certo, paramos imediatamente (podamos a árvore) sem explorar os filhos.
 
-[IMAGEM_BACKTRACKING_LABIRINTO]
+![Labirinto e Poda](../imagens/imagem_backtracking_labirinto.png)
 
 ### Exemplos Clássicos
 - Resolver Labirintos.
