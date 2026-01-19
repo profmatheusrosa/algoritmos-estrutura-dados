@@ -71,7 +71,8 @@ curso_novo_nome/
   - **Imagens Ilustrativas:** Sempre que possível, gerar e incluir o máximo de imagens com infográficos relevantes para ilustrar e explicar os conceitos. As imagens devem ser salvas na pasta `imagens/` e referenciadas no Markdown (ex: `![Descrição da Imagem](../../imagens/nome_da_imagem.png)`). O nome da imagem deve ser significativo e descritivo.
   - **Caso não seja possível gerar as imagens:**
     - Criar um arquivo `lista_imagens_a_gerar.md` dentro da pasta `imagens/`.
-    - Neste arquivo, listar detalhadamente cada imagem que precisa ser criada, incluindo:
+    - Neste arquivo, criar uma **tabela Markdown** listando cada imagem que precisa ser criada, com as seguintes colunas:
+      - **Número:** Sequencial (01, 02, ...).
       - **Módulo:** O módulo teórico onde a imagem será inserida.
       - **Placeholder:** O texto do placeholder usado no arquivo `.md` (ex: `[IMAGEM_CONCEITO_EVENT_LOOP]`).
       - **Descrição:** Uma descrição clara do que a imagem deve conter.
