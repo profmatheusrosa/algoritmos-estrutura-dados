@@ -25,15 +25,25 @@ algoritmos-estrutura-dados/
 
 | Módulo | Tópicos Principais | Subtópicos | Detalhes |
 |:-------|:-------------------|:-----------|:---------|
-| Módulo 01 | Introdução | Big-O, Complexidade | Análise de tempo/espaço |
-| Módulo 02 | Estruturas Lineares | Listas, Pilhas, Filas | Arrays dinâmicos, Linked Lists |
-| Módulo 03 | HashMaps | Dicionários, Sets | Hashing, Colisões |
-| Módulo 04 | Árvores | BST, Heaps | Árvores Binárias, Priority Queues |
-| Módulo 05 | Grafos I | BFS, DFS | Busca em largura e profundidade |
-| Módulo 06 | Grafos II | Dijkstra, MST | Caminhos mínimos, Otimização |
-| Módulo 07 | Prog. Dinâmica | Memoization, Tabulation | Otimização de recursão |
-| Módulo 08 | Backtracking | Recursão, Poda | Sudoku, Permutações |
-| Módulo 09 | Design de Sistemas | Escalabilidade, CAP | Arquitetura de grandes sistemas |
+| **Módulo 1** | Introdução | 1.1 Big-O | Complexidade assintótica |
+|  |  | 1.2 Complexidade | Análise de tempo e espaço |
+| **Módulo 2** | Estruturas Lineares | 2.1 Listas | Arrays dinâmicos e Linked Lists |
+|  |  | 2.2 Pilhas | Estrutura LIFO |
+|  |  | 2.3 Filas | Estrutura FIFO |
+| **Módulo 3** | HashMaps | 3.1 Dicionários | Implementação de mapas |
+|  |  | 3.2 Sets | Hashing e Colisões |
+| **Módulo 4** | Árvores | 4.1 BST (Binary Search Tree) | Árvores Binárias de Busca |
+|  |  | 4.2 Heaps | Priority Queues |
+| **Módulo 5** | Grafos I | 5.1 BFS (Breadth-First Search) | Busca em largura |
+|  |  | 5.2 DFS (Depth-First Search) | Busca em profundidade |
+| **Módulo 6** | Grafos II | 6.1 Dijkstra | Algoritmo de caminhos mínimos |
+|  |  | 6.2 MST | Árvore Geradora Mínima |
+| **Módulo 7** | Prog. Dinâmica | 7.1 Memoization | Top-down optimization |
+|  |  | 7.2 Tabulation | Bottom-up optimization |
+| **Módulo 8** | Backtracking | 8.1 Recursão | Fundamentos de recursividade |
+|  |  | 8.2 Poda | Sudoku e Permutações |
+| **Módulo 9** | Design de Sistemas | 9.1 Escalabilidade | Horizontal vs Vertical |
+|  |  | 9.2 Teorema CAP | Consistency, Availability, Partition Tolerance |
 
 ## Links Rápidos
 
