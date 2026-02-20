@@ -25,23 +25,23 @@ algoritmos-estrutura-dados/
 
 | Módulo | Tópicos Principais | Subtópicos | Detalhes |
 |:-------|:-------------------|:-----------|:---------|
-| **Módulo 1** | Introdução | 1.1 Big-O | Complexidade assintótica |
-|  |  | 1.2 Complexidade | Análise de tempo e espaço |
+| **Módulo 1** | Introdução e Análise de Complexidade | 1.1 Notação Big-O | Complexidade assintótica |
+|  |  | 1.2 Análise de Complexidade | Análise de tempo e espaço |
 | **Módulo 2** | Estruturas Lineares | 2.1 Listas | Arrays dinâmicos e Linked Lists |
 |  |  | 2.2 Pilhas | Estrutura LIFO |
 |  |  | 2.3 Filas | Estrutura FIFO |
-| **Módulo 3** | HashMaps | 3.1 Dicionários | Implementação de mapas |
-|  |  | 3.2 Sets | Hashing e Colisões |
+| **Módulo 3** | HashMaps e Sets | 3.1 Dicionários (HashMaps) | Implementação de mapas e hashing |
+|  |  | 3.2 Sets | Conjuntos e tratamento de colisões |
 | **Módulo 4** | Árvores | 4.1 BST (Binary Search Tree) | Árvores Binárias de Busca |
 |  |  | 4.2 Heaps | Priority Queues |
-| **Módulo 5** | Grafos I | 5.1 BFS (Breadth-First Search) | Busca em largura |
+| **Módulo 5** | Grafos e Algoritmos de Busca | 5.1 BFS (Breadth-First Search) | Busca em largura |
 |  |  | 5.2 DFS (Depth-First Search) | Busca em profundidade |
-| **Módulo 6** | Grafos II | 6.1 Dijkstra | Algoritmo de caminhos mínimos |
-|  |  | 6.2 MST | Árvore Geradora Mínima |
-| **Módulo 7** | Prog. Dinâmica | 7.1 Memoization | Top-down optimization |
+| **Módulo 6** | Grafos Ponderados e Otimização | 6.1 Algoritmo de Dijkstra | Caminhos mínimos |
+|  |  | 6.2 MST (Minimum Spanning Tree) | Árvore Geradora Mínima |
+| **Módulo 7** | Programação Dinâmica | 7.1 Memoization | Top-down optimization |
 |  |  | 7.2 Tabulation | Bottom-up optimization |
-| **Módulo 8** | Backtracking | 8.1 Recursão | Fundamentos de recursividade |
-|  |  | 8.2 Poda | Sudoku e Permutações |
+| **Módulo 8** | Recursão e Backtracking | 8.1 Recursão | Fundamentos de recursividade |
+|  |  | 8.2 Backtracking | Poda e otimização (Sudoku e Permutações) |
 | **Módulo 9** | Design de Sistemas | 9.1 Escalabilidade | Horizontal vs Vertical |
 |  |  | 9.2 Teorema CAP | Consistency, Availability, Partition Tolerance |
 
@@ -53,7 +53,7 @@ algoritmos-estrutura-dados/
 |--------:|:------:|:----------:|:-------:|
 | Módulo 01<br>Introdução e Complexidade | [Teoria](teoria/modulo_01_introducao_a_estruturas_de_dados_e_analise_de_complexidade.md) | [Exercícios](exercicios/modulo_01_exercicios_introducao_a_estruturas_de_dados_e_analise_de_complexidade.md) | [Projeto](projetos/modulo_01_projeto_introducao_a_estruturas_de_dados_e_analise_de_complexidade.md) |
 | Módulo 02<br>Estruturas Lineares | [Teoria](teoria/modulo_02_estruturas_lineares.md) | [Exercícios](exercicios/modulo_02_exercicios_estruturas_lineares.md) | [Projeto](projetos/modulo_02_projeto_estruturas_lineares.md) |
-| Módulo 03<br>HashMaps | [Teoria](teoria/modulo_03_hashmaps_e_dicionarios.md) | [Exercícios](exercicios/modulo_03_exercicios_hashmaps_e_dicionarios.md) | [Projeto](projetos/modulo_03_projeto_hashmaps_e_dicionarios.md) |
+| Módulo 03<br>HashMaps e Sets | [Teoria](teoria/modulo_03_hashmaps_e_dicionarios.md) | [Exercícios](exercicios/modulo_03_exercicios_hashmaps_e_dicionarios.md) | [Projeto](projetos/modulo_03_projeto_hashmaps_e_dicionarios.md) |
 | Módulo 04<br>Árvores e Heaps | [Teoria](teoria/modulo_04_arvores_e_heaps.md) | [Exercícios](exercicios/modulo_04_exercicios_arvores_e_heaps.md) | [Projeto](projetos/modulo_04_projeto_arvores_e_heaps.md) |
 | Módulo 05<br>Grafos e Busca | [Teoria](teoria/modulo_05_grafos_e_algoritmos_de_busca.md) | [Exercícios](exercicios/modulo_05_exercicios_grafos_e_algoritmos_de_busca.md) | [Projeto](projetos/modulo_05_projeto_grafos_e_algoritmos_de_busca.md) |
 | Módulo 06<br>Grafos Ponderados | [Teoria](teoria/modulo_06_grafos_ponderados_e_otimizacao.md) | [Exercícios](exercicios/modulo_06_exercicios_grafos_ponderados_e_otimizacao.md) | [Projeto](projetos/modulo_06_projeto_grafos_ponderados_e_otimizacao.md) |
