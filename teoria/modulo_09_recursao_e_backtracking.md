@@ -96,6 +96,6 @@ d) Não, é mais lento por causa da recursão.
 
 Recursão simplifica código complexo. Backtracking resolve problemas que parecem impossíveis (como Sudoku) de forma elegante e (relativamente) eficiente.
 
-[Próximo módulo →](../teoria/modulo_09_design_de_sistemas.md)
+[Próximo módulo →](../teoria/modulo_10_design_de_sistemas.md)
 
 [Voltar aos Links Rápidos](../README.md#links-rapidos)

@@ -95,6 +95,6 @@ d) MST só funciona em grafos direcionados.
 
 Grafos ponderados nos permitem modelar o mundo real com muito mais precisão, levando em conta custos, distâncias e tempo.
 
-[Próximo módulo →](../teoria/modulo_07_programacao_dinamica_e_problemas_praticos.md)
+[Próximo módulo →](../teoria/modulo_08_programacao_dinamica_e_problemas_praticos.md)
 
 [Voltar aos Links Rápidos](../README.md#links-rapidos)

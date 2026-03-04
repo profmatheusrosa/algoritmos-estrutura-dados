@@ -133,6 +133,6 @@ d) O(n²)
 
 Arrays, Pilhas e Filas são ferramentas essenciais. Saber quando usar `deque` em vez de `list` ou quando uma Pilha resolve seu problema de "histórico" é o que diferencia programadores iniciantes de avançados.
 
-[Próximo módulo →](../teoria/modulo_03_hashmaps_e_dicionarios.md)
+[Próximo módulo →](../teoria/modulo_04_hashmaps_e_dicionarios.md)
 
 [Voltar aos Links Rápidos](../README.md#links-rapidos)

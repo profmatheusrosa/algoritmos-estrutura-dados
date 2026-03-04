@@ -89,6 +89,6 @@ d) Depende da implementação.
 
 Programação Dinâmica transforma força bruta exponencial em eficiência polinomial. É a chave para resolver problemas complexos de otimização.
 
-[Próximo módulo →](../teoria/modulo_08_recursao_e_backtracking.md)
+[Próximo módulo →](../teoria/modulo_09_recursao_e_backtracking.md)
 
 [Voltar aos Links Rápidos](../README.md#links-rapidos)

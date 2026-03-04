@@ -111,6 +111,6 @@ d) Na última folha
 
 Árvores trazem complexidade, mas também poder. BSTs aceleram buscas e Heaps gerenciam prioridades com eficiência incrível.
 
-[Próximo módulo →](../teoria/modulo_05_grafos_e_algoritmos_de_busca.md)
+[Próximo módulo →](../teoria/modulo_06_grafos_e_algoritmos_de_busca.md)
 
 [Voltar aos Links Rápidos](../README.md#links-rapidos)

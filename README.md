@@ -27,23 +27,26 @@ algoritmos-estrutura-dados/
 |:-------|:-------------------|:-----------|:---------|
 | **Módulo 1** | Introdução e Análise de Complexidade | 1.1 Notação Big-O | Complexidade assintótica |
 |  |  | 1.2 Análise de Complexidade | Análise de tempo e espaço |
-| **Módulo 2** | Estruturas Lineares | 2.1 Listas | Arrays dinâmicos e Linked Lists |
-|  |  | 2.2 Pilhas | Estrutura LIFO |
-|  |  | 2.3 Filas | Estrutura FIFO |
-| **Módulo 3** | HashMaps e Sets | 3.1 Dicionários (HashMaps) | Implementação de mapas e hashing |
-|  |  | 3.2 Sets | Conjuntos e tratamento de colisões |
-| **Módulo 4** | Árvores | 4.1 BST (Binary Search Tree) | Árvores Binárias de Busca |
-|  |  | 4.2 Heaps | Priority Queues |
-| **Módulo 5** | Grafos e Algoritmos de Busca | 5.1 BFS (Breadth-First Search) | Busca em largura |
-|  |  | 5.2 DFS (Depth-First Search) | Busca em profundidade |
-| **Módulo 6** | Grafos Ponderados e Otimização | 6.1 Algoritmo de Dijkstra | Caminhos mínimos |
-|  |  | 6.2 MST (Minimum Spanning Tree) | Árvore Geradora Mínima |
-| **Módulo 7** | Programação Dinâmica | 7.1 Memoization | Top-down optimization |
-|  |  | 7.2 Tabulation | Bottom-up optimization |
-| **Módulo 8** | Recursão e Backtracking | 8.1 Recursão | Fundamentos de recursividade |
-|  |  | 8.2 Backtracking | Poda e otimização (Sudoku e Permutações) |
-| **Módulo 9** | Design de Sistemas | 9.1 Escalabilidade | Horizontal vs Vertical |
-|  |  | 9.2 Teorema CAP | Consistency, Availability, Partition Tolerance |
+| **Módulo 2** | Algoritmos de Busca e Ordenação | 2.1 Busca | Busca Linear e Busca Binária |
+|  |  | 2.2 Ordenações O(n²) | Bubble Sort, Selection Sort, Insertion Sort |
+|  |  | 2.3 Ordenações O(n log n) | Introdução a Dividir e Conquistar (Merge e Quick Sort) |
+| **Módulo 3** | Estruturas Lineares | 3.1 Listas | Arrays dinâmicos e Linked Lists |
+|  |  | 3.2 Pilhas | Estrutura LIFO |
+|  |  | 3.3 Filas | Estrutura FIFO |
+| **Módulo 4** | HashMaps e Sets | 4.1 Dicionários (HashMaps) | Implementação de mapas e hashing |
+|  |  | 4.2 Sets | Conjuntos e tratamento de colisões |
+| **Módulo 5** | Árvores | 5.1 BST (Binary Search Tree) | Árvores Binárias de Busca |
+|  |  | 5.2 Heaps | Priority Queues |
+| **Módulo 6** | Grafos e Algoritmos de Busca | 6.1 BFS (Breadth-First Search) | Busca em largura |
+|  |  | 6.2 DFS (Depth-First Search) | Busca em profundidade |
+| **Módulo 7** | Grafos Ponderados e Otimização | 7.1 Algoritmo de Dijkstra | Caminhos mínimos |
+|  |  | 7.2 MST (Minimum Spanning Tree) | Árvore Geradora Mínima |
+| **Módulo 8** | Programação Dinâmica | 8.1 Memoization | Top-down optimization |
+|  |  | 8.2 Tabulation | Bottom-up optimization |
+| **Módulo 9** | Recursão e Backtracking | 9.1 Recursão | Fundamentos de recursividade |
+|  |  | 9.2 Backtracking | Poda e otimização (Sudoku e Permutações) |
+| **Módulo 10** | Design de Sistemas | 10.1 Escalabilidade | Horizontal vs Vertical |
+|  |  | 10.2 Teorema CAP | Consistency, Availability, Partition Tolerance |
 
 ## Links Rápidos
 
@@ -52,14 +55,15 @@ algoritmos-estrutura-dados/
 | Módulo | Teoria | Exercícios | Projeto |
 |--------:|:------:|:----------:|:-------:|
 | Módulo 01<br>Introdução e Complexidade | [Teoria](teoria/modulo_01_introducao_a_estruturas_de_dados_e_analise_de_complexidade.md) | [Exercícios](exercicios/modulo_01_exercicios_introducao_a_estruturas_de_dados_e_analise_de_complexidade.md) | [Projeto](projetos/modulo_01_projeto_introducao_a_estruturas_de_dados_e_analise_de_complexidade.md) |
-| Módulo 02<br>Estruturas Lineares | [Teoria](teoria/modulo_02_estruturas_lineares.md) | [Exercícios](exercicios/modulo_02_exercicios_estruturas_lineares.md) | [Projeto](projetos/modulo_02_projeto_estruturas_lineares.md) |
-| Módulo 03<br>HashMaps e Sets | [Teoria](teoria/modulo_03_hashmaps_e_dicionarios.md) | [Exercícios](exercicios/modulo_03_exercicios_hashmaps_e_dicionarios.md) | [Projeto](projetos/modulo_03_projeto_hashmaps_e_dicionarios.md) |
-| Módulo 04<br>Árvores e Heaps | [Teoria](teoria/modulo_04_arvores_e_heaps.md) | [Exercícios](exercicios/modulo_04_exercicios_arvores_e_heaps.md) | [Projeto](projetos/modulo_04_projeto_arvores_e_heaps.md) |
-| Módulo 05<br>Grafos e Busca | [Teoria](teoria/modulo_05_grafos_e_algoritmos_de_busca.md) | [Exercícios](exercicios/modulo_05_exercicios_grafos_e_algoritmos_de_busca.md) | [Projeto](projetos/modulo_05_projeto_grafos_e_algoritmos_de_busca.md) |
-| Módulo 06<br>Grafos Ponderados | [Teoria](teoria/modulo_06_grafos_ponderados_e_otimizacao.md) | [Exercícios](exercicios/modulo_06_exercicios_grafos_ponderados_e_otimizacao.md) | [Projeto](projetos/modulo_06_projeto_grafos_ponderados_e_otimizacao.md) |
-| Módulo 07<br>Programação Dinâmica | [Teoria](teoria/modulo_07_programacao_dinamica_e_problemas_praticos.md) | [Exercícios](exercicios/modulo_07_exercicios_programacao_dinamica_e_problemas_praticos.md) | [Projeto](projetos/modulo_07_projeto_programacao_dinamica_e_problemas_praticos.md) |
-| Módulo 08<br>Recursão e Backtracking | [Teoria](teoria/modulo_08_recursao_e_backtracking.md) | [Exercícios](exercicios/modulo_08_exercicios_recursao_e_backtracking.md) | [Projeto](projetos/modulo_08_projeto_recursao_e_backtracking.md) |
-| Módulo 09<br>Design de Sistemas | [Teoria](teoria/modulo_09_design_de_sistemas.md) | [Exercícios](exercicios/modulo_09_exercicios_design_de_sistemas.md) | [Projeto](projetos/modulo_09_projeto_design_de_sistemas.md) |
+| Módulo 02<br>Busca e Ordenação | [Teoria](teoria/modulo_02_algoritmos_de_busca_e_ordenacao.md) | [Exercícios](exercicios/modulo_02_exercicios_algoritmos_de_busca_e_ordenacao.md) | [Projeto](projetos/modulo_02_projeto_algoritmos_de_busca_e_ordenacao.md) |
+| Módulo 03<br>Estruturas Lineares | [Teoria](teoria/modulo_03_estruturas_lineares.md) | [Exercícios](exercicios/modulo_03_exercicios_estruturas_lineares.md) | [Projeto](projetos/modulo_03_projeto_estruturas_lineares.md) |
+| Módulo 04<br>HashMaps e Sets | [Teoria](teoria/modulo_04_hashmaps_e_dicionarios.md) | [Exercícios](exercicios/modulo_04_exercicios_hashmaps_e_dicionarios.md) | [Projeto](projetos/modulo_04_projeto_hashmaps_e_dicionarios.md) |
+| Módulo 05<br>Árvores e Heaps | [Teoria](teoria/modulo_05_arvores_e_heaps.md) | [Exercícios](exercicios/modulo_05_exercicios_arvores_e_heaps.md) | [Projeto](projetos/modulo_05_projeto_arvores_e_heaps.md) |
+| Módulo 06<br>Grafos e Busca | [Teoria](teoria/modulo_06_grafos_e_algoritmos_de_busca.md) | [Exercícios](exercicios/modulo_06_exercicios_grafos_e_algoritmos_de_busca.md) | [Projeto](projetos/modulo_06_projeto_grafos_e_algoritmos_de_busca.md) |
+| Módulo 07<br>Grafos Ponderados | [Teoria](teoria/modulo_07_grafos_ponderados_e_otimizacao.md) | [Exercícios](exercicios/modulo_07_exercicios_grafos_ponderados_e_otimizacao.md) | [Projeto](projetos/modulo_07_projeto_grafos_ponderados_e_otimizacao.md) |
+| Módulo 08<br>Programação Dinâmica | [Teoria](teoria/modulo_08_programacao_dinamica_e_problemas_praticos.md) | [Exercícios](exercicios/modulo_08_exercicios_programacao_dinamica_e_problemas_praticos.md) | [Projeto](projetos/modulo_08_projeto_programacao_dinamica_e_problemas_praticos.md) |
+| Módulo 09<br>Recursão e Backtracking | [Teoria](teoria/modulo_09_recursao_e_backtracking.md) | [Exercícios](exercicios/modulo_09_exercicios_recursao_e_backtracking.md) | [Projeto](projetos/modulo_09_projeto_recursao_e_backtracking.md) |
+| Módulo 10<br>Design de Sistemas | [Teoria](teoria/modulo_10_design_de_sistemas.md) | [Exercícios](exercicios/modulo_10_exercicios_design_de_sistemas.md) | [Projeto](projetos/modulo_10_projeto_design_de_sistemas.md) |
 
 ### Materiais Complementares
 
@@ -90,9 +94,9 @@ Este curso terá **3 avaliações** ao longo do semestre. A nota final será cal
 
 ### Datas das Avaliações
 
-- **Avaliação 1:** _______________ (Foco em Módulos 1-3)
-- **Avaliação 2:** _______________ (Foco em Módulos 4-6)
-- **Avaliação 3:** _______________ (Foco em Módulos 7-9)
+- **Avaliação 1:** _______________ (Foco em Módulos 1-4)
+- **Avaliação 2:** _______________ (Foco em Módulos 5-7)
+- **Avaliação 3:** _______________ (Foco em Módulos 8-10)
 
 ## Referências
 

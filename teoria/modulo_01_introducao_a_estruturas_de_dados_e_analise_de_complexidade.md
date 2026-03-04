@@ -121,6 +121,6 @@ d) O(n log n)
 
 Neste módulo, aprendemos que escolher a estrutura de dados correta e entender a complexidade do algoritmo é vital para criar software escalável e eficiente. Nos próximos módulos, exploraremos estruturas específicas.
 
-[Próximo módulo →](../teoria/modulo_02_estruturas_lineares.md)
+[Próximo módulo →](../teoria/modulo_02_algoritmos_de_busca_e_ordenacao.md)
 
 [Voltar aos Links Rápidos](../README.md#links-rapidos)

@@ -111,6 +111,6 @@ d) Um ciclo infinito
 
 Dominar BFS e DFS é essencial. Quase todos os problemas avançados de grafos (Dijkstra, Prim, etc.) são variações ou especializações dessas duas buscas fundamentais.
 
-[Próximo módulo →](../teoria/modulo_06_grafos_ponderados_e_otimizacao.md)
+[Próximo módulo →](../teoria/modulo_07_grafos_ponderados_e_otimizacao.md)
 
 [Voltar aos Links Rápidos](../README.md#links-rapidos)

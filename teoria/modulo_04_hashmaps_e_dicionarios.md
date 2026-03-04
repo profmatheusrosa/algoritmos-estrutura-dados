@@ -108,6 +108,6 @@ d) Tupla (Tuple)
 
 HashMaps são a ferramenta padrão para "lookups" rápidos. Se você precisa verificar existência ou buscar itens por uma chave única, use um Hash Map (`dict` ou `set`).
 
-[Próximo módulo →](../teoria/modulo_04_arvores_e_heaps.md)
+[Próximo módulo →](../teoria/modulo_05_arvores_e_heaps.md)
 
 [Voltar aos Links Rápidos](../README.md#links-rapidos)
