@@ -120,6 +120,7 @@ curso_novo_nome/
 
   - **Links de Navegação ao Final:** Ao término de cada arquivo de teoria, incluir:
     - Link "Próximo módulo" apontando para o arquivo do próximo módulo (quando houver), usando caminho relativo, por exemplo: `[Próximo módulo →](../teoria/modulo_02_titulo_do_modulo.md)`.
+    - Link "Módulo anterior" apontando para o arquivo do módulo anterior (quando houver), logo após o link de próximo módulo, por exemplo: `[← Módulo anterior](../teoria/modulo_01_titulo_do_modulo.md)`.
     - Link "Voltar aos Links Rápidos" apontando diretamente para a seção de links rápidos no `README.md`, por exemplo: `[Voltar aos Links Rápidos](../README.md#links-rapidos)` ou `../../README.md#links-rapidos`, ajustando conforme a profundidade do arquivo.
     - Verificar que os caminhos relativos estejam corretos conforme a estrutura adotada.
 

@@ -152,4 +152,6 @@ Escolhe um elemento chamado "pivô" e particiona os demais elementos de modo que
 
 [Próximo módulo →](../teoria/modulo_03_estruturas_lineares.md)
 
+[← Módulo anterior](../teoria/modulo_01_introducao_a_estruturas_de_dados_e_analise_de_complexidade.md)
+
 [Voltar aos Links Rápidos](../README.md#links-rapidos)

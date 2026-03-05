@@ -25,7 +25,13 @@ Grafos são a estrutura mais versátil da computação. Eles modelam redes socia
   - **Direcionado (Digraph):** Arestas têm sentido (A -> B). Ex: Seguir no Twitter.
   - **Não Direcionado:** A conexão é mútua (A - B). Ex: Amizade no Facebook.
 
-[IMAGEM_GRAFO_CONCEITO]
+### Operações Básicas
+- **Adicionar Vértice (Add Vertex):** Inserir um novo nó (entidade) ao grafo.
+- **Adicionar Aresta (Add Edge):** Criar uma conexão (com ou sem direção/peso) entre dois nós já existentes.
+- **Remover Vértice/Aresta (Remove Vertex/Edge):** Deletar nós ou conexões entre eles.
+- **Obter Vizinhos (Get Neighbors):** Listar e acessar todos os nós diretamente conectados a um vértice.
+
+![Conceito de Grafo](../imagens/imagem_grafo_conceito.png)
 
 ---
 
@@ -37,12 +43,29 @@ Como guardar isso na memória?
 Cada vértice tem uma lista de vértices aos quais está conectado.
 Usa menos memória para grafos esparsos (poucas arestas).
 ```python
+# Representação e Operações usando Lista de Adjacência (Dicionário)
 grafo = {
     'A': ['B', 'C'],
     'B': ['D'],
     'C': [],
     'D': ['A']
 }
+
+# Adicionar Vértice
+grafo['E'] = []
+
+# Adicionar Aresta (D -> E)
+grafo['D'].append('E')
+
+# Obter Vizinhos de 'A'
+vizinhos_de_a = grafo['A'] # ['B', 'C']
+
+# Remover Aresta (Nó 'A' não aponta mais para 'C')
+grafo['A'].remove('C')
+
+# Remover Vértice (Nó 'E')
+del grafo['E']
+# (Deveríamos também remover todas as ocorrências de 'E' nas outras listas)
 ```
 
 ### Matriz de Adjacência
@@ -112,5 +135,7 @@ d) Um ciclo infinito
 Dominar BFS e DFS é essencial. Quase todos os problemas avançados de grafos (Dijkstra, Prim, etc.) são variações ou especializações dessas duas buscas fundamentais.
 
 [Próximo módulo →](../teoria/modulo_07_grafos_ponderados_e_otimizacao.md)
+
+[← Módulo anterior](../teoria/modulo_05_arvores_e_heaps.md)
 
 [Voltar aos Links Rápidos](../README.md#links-rapidos)

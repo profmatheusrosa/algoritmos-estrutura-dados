@@ -22,6 +22,12 @@ Neste módulo, exploraremos as estruturas de dados lineares, onde os elementos s
 - **Array:** Uma coleção de elementos de tamanho fixo (em linguagens de baixo nível) ou dinâmico, armazenados contiguamente na memória. Permite acesso aleatório rápido O(1).
 - **Lista Encadeada:** Uma sequência de nós onde cada nó aponta para o próximo. Permite inserções e remoções eficientes O(1) se tivermos a referência do nó, mas acesso sequencial lento O(n).
 
+### Operações Básicas
+- **Acesso (Access):** Obter um elemento em uma posição específica (rápido em Arrays, lento em Listas Encadeadas).
+- **Inserção (Insert):** Adicionar um novo elemento.
+- **Remoção (Delete):** Remover um elemento existente.
+- **Busca (Search):** Percorrer ou procurar um elemento com base no seu valor.
+
 Em Python, a estrutura `list` é implementada como um **Array Dinâmico**.
 
 ```python
@@ -31,11 +37,17 @@ frutas = ["Maçã", "Banana", "Laranja"]
 # Acesso O(1)
 print(frutas[0]) 
 
+# Busca O(n)
+indice = frutas.index("Banana")
+
 # Inserção no final O(1) (amortizado)
 frutas.append("Uva")
 
 # Inserção no meio O(n) (precisa deslocar elementos)
 frutas.insert(1, "Morango")
+
+# Remoção O(n) (precisa deslocar elementos)
+frutas.remove("Banana")
 ```
 
 ![Array vs Linked List](../imagens/imagem_array_vs_linkedlist.png)
@@ -62,7 +74,7 @@ pilha.append(20)
 topo = pilha.pop() # Pop (retorna 20)
 ```
 
-[IMAGEM_CONCEITO_PILHA]
+![Conceito de Pilha](../imagens/imagem_conceito_pilha.png)
 
 ---
 
@@ -87,7 +99,7 @@ fila.append("Cliente B")
 proximo = fila.popleft() # Dequeue ("Cliente A") - O(1)
 ```
 
-[IMAGEM_CONCEITO_FILA]
+![Conceito de Fila](../imagens/imagem_conceito_fila.png)
 
 ---
 
@@ -134,5 +146,7 @@ d) O(n²)
 Arrays, Pilhas e Filas são ferramentas essenciais. Saber quando usar `deque` em vez de `list` ou quando uma Pilha resolve seu problema de "histórico" é o que diferencia programadores iniciantes de avançados.
 
 [Próximo módulo →](../teoria/modulo_04_hashmaps_e_dicionarios.md)
+
+[← Módulo anterior](../teoria/modulo_02_algoritmos_de_busca_e_ordenacao.md)
 
 [Voltar aos Links Rápidos](../README.md#links-rapidos)

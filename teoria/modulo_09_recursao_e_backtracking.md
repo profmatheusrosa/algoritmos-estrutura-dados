@@ -98,4 +98,6 @@ Recursão simplifica código complexo. Backtracking resolve problemas que parece
 
 [Próximo módulo →](../teoria/modulo_10_design_de_sistemas.md)
 
+[← Módulo anterior](../teoria/modulo_08_programacao_dinamica_e_problemas_praticos.md)
+
 [Voltar aos Links Rápidos](../README.md#links-rapidos)

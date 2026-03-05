@@ -25,7 +25,12 @@ HashMaps (ou Tabelas Hash) são indiscutivelmente uma das estruturas de dados ma
 Uma função matemática que transforma uma entrada (chave) em um número inteiro (hash).
 Ex: `hash("nome") -> 14532`
 
-[IMAGEM_CONCEITO_HASHING]
+![Conceito de Hashing](../imagens/imagem_conceito_hashing.png)
+
+### Operações Básicas
+- **Inserção (Put/Set):** Adicionar um novo par de chave e valor. A chave é submetida a uma função de hash para determinar o índice.
+- **Busca (Get):** Recuperar o valor associado a uma determinada chave em tempo O(1) na média.
+- **Remoção (Delete/Remove):** Localizar e remover o par chave-valor com base na chave.
 
 ### Em Python
 Python possui duas estruturas robustas baseadas em hash:
@@ -35,11 +40,26 @@ Python possui duas estruturas robustas baseadas em hash:
 ```python
 # Dicionário
 telefones = {"Alice": 1234, "Bob": 5678}
-print(telefones["Alice"]) # O(1)
+
+# Inserção O(1)
+telefones["Carlos"] = 9012
+
+# Busca O(1)
+print(telefones["Alice"]) 
+
+# Remoção O(1)
+del telefones["Bob"]
 
 # Set
 unicos = {1, 2, 3, 3, 2}
-print(unicos) # {1, 2, 3} - remove duplicatas automaticamente
+
+# Inserção O(1)
+unicos.add(4)
+
+# Remoção O(1)
+unicos.remove(2)
+
+print(unicos) # {1, 3, 4} - remove duplicatas automaticamente
 ```
 
 ---
@@ -109,5 +129,7 @@ d) Tupla (Tuple)
 HashMaps são a ferramenta padrão para "lookups" rápidos. Se você precisa verificar existência ou buscar itens por uma chave única, use um Hash Map (`dict` ou `set`).
 
 [Próximo módulo →](../teoria/modulo_05_arvores_e_heaps.md)
+
+[← Módulo anterior](../teoria/modulo_03_estruturas_lineares.md)
 
 [Voltar aos Links Rápidos](../README.md#links-rapidos)

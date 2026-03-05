@@ -97,4 +97,6 @@ Grafos ponderados nos permitem modelar o mundo real com muito mais precisão, le
 
 [Próximo módulo →](../teoria/modulo_08_programacao_dinamica_e_problemas_praticos.md)
 
+[← Módulo anterior](../teoria/modulo_06_grafos_e_algoritmos_de_busca.md)
+
 [Voltar aos Links Rápidos](../README.md#links-rapidos)

@@ -44,6 +44,11 @@ Uma BST é uma árvore binária com uma propriedade especial:
 
 Isso permite busca rápida (O(log n) em média).
 
+### Operações Básicas
+- **Busca (Search):** Encontrar um nó com um valor específico.
+- **Inserção (Insert):** Adicionar um novo nó preservando a propriedade da árvore (menores à esquerda, maiores à direita).
+- **Remoção (Delete):** Remover um nó da árvore.
+
 ![Propriedade BST](../imagens/imagem_bst_propriedade.png)
 
 ---
@@ -57,13 +62,38 @@ Heaps são árvores binárias especiais usadas para implementar **Filas de Prior
 
 Geralmente implementados usando **Arrays** para economizar memória (sem ponteiros).
 
-[IMAGEM_HEAP_ESTRUTURA]
+### Operações Básicas
+- **Inserção (Push/Insert):** Adicionar um novo elemento e reorganizar a árvore empurrando para cima (Heapify Up).
+- **Extração (Pop/Extract):** Remover o elemento da raiz (o de maior/menor prioridade) e reorganizar a árvore empurrando o substituto para baixo (Heapify Down).
+- **Peek:** Olhar o topo da estrutura sem realizar remoções.
+
+```python
+import heapq
+
+# Exemplo de Min-Heap em Python
+fila_prioridade = []
+
+# Inserção O(log n)
+heapq.heappush(fila_prioridade, 10)
+heapq.heappush(fila_prioridade, 5)
+heapq.heappush(fila_prioridade, 20)
+
+# Peek O(1)
+menor_elemento = fila_prioridade[0] # Retorna 5
+
+# Extração O(log n)
+removido = heapq.heappop(fila_prioridade) # Retorna 5 e o remove
+```
+
+![Estrutura do Heap](../imagens/imagem_heap_estrutura.png)
 
 ---
 
 ## 5. Union-Find
 
 Uma estrutura de dados para gerenciar conjuntos disjuntos (grupos separados). Muito usada em algoritmos de grafos (como Kruskal).
+
+### Operações Básicas
 - **Find:** Descobre a qual grupo um elemento pertence.
 - **Union:** Une dois grupos em um só.
 
@@ -112,5 +142,7 @@ d) Na última folha
 Árvores trazem complexidade, mas também poder. BSTs aceleram buscas e Heaps gerenciam prioridades com eficiência incrível.
 
 [Próximo módulo →](../teoria/modulo_06_grafos_e_algoritmos_de_busca.md)
+
+[← Módulo anterior](../teoria/modulo_04_hashmaps_e_dicionarios.md)
 
 [Voltar aos Links Rápidos](../README.md#links-rapidos)

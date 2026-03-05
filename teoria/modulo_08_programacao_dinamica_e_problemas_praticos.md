@@ -91,4 +91,6 @@ Programação Dinâmica transforma força bruta exponencial em eficiência polin
 
 [Próximo módulo →](../teoria/modulo_09_recursao_e_backtracking.md)
 
+[← Módulo anterior](../teoria/modulo_07_grafos_ponderados_e_otimizacao.md)
+
 [Voltar aos Links Rápidos](../README.md#links-rapidos)

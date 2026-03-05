@@ -103,4 +103,6 @@ d) Deletar dados antigos.
 
 Design de Sistemas não tem "resposta certa", tem **trade-offs** (compromissos). Saber escolher entre consistência e latência é o que define um arquiteto sênior.
 
+[← Módulo anterior](../teoria/modulo_09_recursao_e_backtracking.md)
+
 [Voltar aos Links Rápidos](../README.md#links-rapidos)
