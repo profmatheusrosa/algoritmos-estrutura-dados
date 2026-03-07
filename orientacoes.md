@@ -68,15 +68,25 @@ curso_novo_nome/
   
   - **Conteúdo Teórico Detalhado:** Explicação aprofundada de cada conceito do tópico, com exemplos de código quando aplicável.
   
-  - **Imagens Ilustrativas:** Sempre que possível, gerar e incluir o máximo de imagens com infográficos relevantes para ilustrar e explicar os conceitos. As imagens devem ser salvas na pasta `imagens/` e referenciadas no Markdown (ex: `![Descrição da Imagem](../../imagens/nome_da_imagem.png)`). O nome da imagem deve ser significativo e descritivo.
+  - **Imagens Ilustrativas:** Sempre que possível, gerar e incluir o máximo de imagens com **infográficos** relevantes para ilustrar e explicar os conceitos. **Importante: Todas as imagens e infográficos gerados devem ter textos exclusivamente em Português do Brasil (pt-BR).** As imagens devem ser salvas na pasta `imagens/` e referenciadas no Markdown (ex: `![Descrição da Imagem](../../imagens/nome_da_imagem.png)`). O nome da imagem deve ser significativo e descritivo.
+  
+  - **Estilo Padrão dos Prompts para Geração de Imagens:** Todos os prompts de geração de imagens devem seguir este padrão:
+    - O prompt deve ser em **inglês**, mas deve declarar explicitamente as palavras exatas em português permitidas e proibir outras línguas ou a sigla pt-BR na própria imagem.
+    - Incluir sempre a exigência de ser minimalista, técnico e flat vector.
+    - **Exemplo de prompt padrão:**
+      ```
+      A clean and informative infographic illustrating [CONCEITO]. [DESCRIÇÃO DETALHADA DO QUE A IMAGEM DEVE CONTER]. Use ONLY the following words for labels: '[Palavra 1]', '[Palavra 2]', '[Palavra 3]'. DO NOT use English words. DO NOT write 'pt-BR' anywhere in the image. Minimalist design, technical aesthetic, clear and educational, flat vector style, software engineering infographic.
+      ```
+
   - **Caso não seja possível gerar as imagens:**
     - Criar um arquivo `lista_imagens_a_gerar.md` dentro da pasta `imagens/`.
     - Neste arquivo, criar uma **tabela Markdown** listando cada imagem que precisa ser criada, com as seguintes colunas:
       - **Número:** Sequencial (01, 02, ...).
+      - **Status:** ✅ (Gerada) ou ⏳ (Pendente).
       - **Módulo:** O módulo teórico onde a imagem será inserida.
-      - **Placeholder:** O texto do placeholder usado no arquivo `.md` (ex: `[IMAGEM_CONCEITO_EVENT_LOOP]`).
-      - **Descrição:** Uma descrição clara do que a imagem deve conter.
-      - **Prompt de Criação:** O prompt em inglês exato que pode ser usado para gerar a imagem.
+      - **Nome do Arquivo:** O nome do arquivo da imagem (ex: `imagem_conceito_hashing.png`).
+      - **Descrição:** Uma descrição clara do que a imagem deve conter, em português.
+      - **Prompt de Criação:** O prompt em inglês seguindo o estilo padrão descrito acima.
     - Nos arquivos de teoria (`.md`), inserir placeholders onde as imagens deveriam estar (ex: `[IMAGEM_CONCEITO_EVENT_LOOP]`).
   
   - **Exercícios de Fixação (Múltipla Escolha):** Ao final de cada seção ou subseção importante, incluir 1-2 questões de múltipla escolha com 4 opções e a resposta correta indicada. As respostas devem ser ocultadas usando as tags `<details>` e `<summary>` do Markdown. **A numeração deve seguir o padrão do módulo: Módulo 1 = Ex 1, 1.1; Módulo 2 = Ex 2, 2.1; etc.** O formato deve ser:
