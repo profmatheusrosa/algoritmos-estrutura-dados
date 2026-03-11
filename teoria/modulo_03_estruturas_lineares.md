@@ -1,4 +1,4 @@
-# Módulo 02: Estruturas Lineares
+# Módulo 03: Estruturas Lineares
 
 ## Sumário
 - [1. Introdução](#1-introdução-ao-módulo)
