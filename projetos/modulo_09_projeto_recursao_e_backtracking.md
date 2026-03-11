@@ -1,4 +1,4 @@
-# Módulo 08: Projeto - Resolvedor de Sudoku
+# Módulo 09: Projeto - Resolvedor de Sudoku
 
 ## Objetivo
 Criar um programa que resolva automaticamente um tabuleiro de Sudoku incompleto usando Backtracking.

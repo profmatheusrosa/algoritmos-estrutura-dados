@@ -1,4 +1,4 @@
-# Módulo 03: Projeto - Banco de Dados em Memória (Key-Value Store)
+# Módulo 04: Projeto - Banco de Dados em Memória (Key-Value Store)
 
 ## Objetivo
 Criar um sistema de banco de dados simples em memória (como um mini Redis) que suporte operações básicas e transações simples.

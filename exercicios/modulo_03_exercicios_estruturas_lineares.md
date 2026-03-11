@@ -1,4 +1,4 @@
-# Módulo 02: Exercícios - Estruturas Lineares
+# Módulo 03: Exercícios - Estruturas Lineares
 
 ## Exercício Prático 1: Verificador de Palíndromos com Pilha
 

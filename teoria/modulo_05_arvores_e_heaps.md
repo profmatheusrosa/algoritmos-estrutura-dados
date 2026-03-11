@@ -1,4 +1,4 @@
-# Módulo 04: Árvores e Heaps
+# Módulo 05: Árvores e Heaps
 
 ## Sumário
 - [1. Introdução](#1-introdução-ao-módulo)

@@ -1,4 +1,4 @@
-# Módulo 07: Exercícios - Programação Dinâmica
+# Módulo 08: Exercícios - Programação Dinâmica
 
 ## Exercício Prático 1: Fibonacci com Memoization
 

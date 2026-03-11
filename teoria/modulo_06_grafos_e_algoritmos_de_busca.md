@@ -1,4 +1,4 @@
-# Módulo 05: Grafos e Algoritmos de Busca
+# Módulo 06: Grafos e Algoritmos de Busca
 
 ## Sumário
 - [1. Introdução](#1-introdução-ao-módulo)

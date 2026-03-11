@@ -1,4 +1,4 @@
-# Módulo 07: Projeto - Otimizador de Investimentos
+# Módulo 08: Projeto - Otimizador de Investimentos
 
 ## Objetivo
 Resolver o problema da "Mochila 0/1" aplicado a investimentos.

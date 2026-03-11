@@ -1,4 +1,4 @@
-# Módulo 03: HashMaps e Dicionários
+# Módulo 04: HashMaps e Dicionários
 
 ## Sumário
 - [1. Introdução](#1-introdução-ao-módulo)

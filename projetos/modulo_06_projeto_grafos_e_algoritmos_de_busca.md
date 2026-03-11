@@ -1,4 +1,4 @@
-# Módulo 05: Projeto - Recomendação de Amigos em Rede Social
+# Módulo 06: Projeto - Recomendação de Amigos em Rede Social
 
 ## Objetivo
 Simular uma pequena rede social e usar algoritmos de grafos para recomendar novos amigos.

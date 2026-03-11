@@ -1,4 +1,4 @@
-# Módulo 08: Recursão e Backtracking
+# Módulo 09: Recursão e Backtracking
 
 ## Sumário
 - [1. Introdução](#1-introdução-ao-módulo)

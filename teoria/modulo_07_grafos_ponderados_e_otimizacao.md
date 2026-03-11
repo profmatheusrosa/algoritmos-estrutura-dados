@@ -1,4 +1,4 @@
-# Módulo 06: Grafos Ponderados e Otimização
+# Módulo 07: Grafos Ponderados e Otimização
 
 ## Sumário
 - [1. Introdução](#1-introdução-ao-módulo)

@@ -1,4 +1,4 @@
-# Módulo 05: Exercícios - Grafos e Algoritmos de Busca
+# Módulo 06: Exercícios - Grafos e Algoritmos de Busca
 
 ## Exercício Prático 1: Implementar Grafos
 

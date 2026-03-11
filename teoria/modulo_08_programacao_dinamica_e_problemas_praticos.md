@@ -1,4 +1,4 @@
-# Módulo 07: Programação Dinâmica e Problemas Práticos
+# Módulo 08: Programação Dinâmica e Problemas Práticos
 
 ## Sumário
 - [1. Introdução](#1-introdução-ao-módulo)

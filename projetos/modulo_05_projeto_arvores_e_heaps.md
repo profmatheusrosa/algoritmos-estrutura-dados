@@ -1,4 +1,4 @@
-# Módulo 04: Projeto - Agendador de Tarefas Prioritárias
+# Módulo 05: Projeto - Agendador de Tarefas Prioritárias
 
 ## Objetivo
 Criar um sistema de gerenciamento de tarefas onde cada tarefa tem uma prioridade. O sistema deve sempre executar (remover) a tarefa de maior prioridade primeiro.

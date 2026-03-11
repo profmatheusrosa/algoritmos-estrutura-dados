@@ -1,4 +1,4 @@
-# Módulo 08: Exercícios - Recursão e Backtracking
+# Módulo 09: Exercícios - Recursão e Backtracking
 
 ## Exercício Prático 1: Soma Recursiva de Dígitos
 

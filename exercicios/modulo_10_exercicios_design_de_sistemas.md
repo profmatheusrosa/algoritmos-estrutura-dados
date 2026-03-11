@@ -1,4 +1,4 @@
-# Módulo 09: Exercícios - Design de Sistemas
+# Módulo 10: Exercícios - Design de Sistemas
 
 ## Exercício Prático 1: Encurtador de URL (TinyURL)
 

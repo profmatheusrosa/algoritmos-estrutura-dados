@@ -1,4 +1,4 @@
-# Módulo 06: Projeto - Sistema de Navegação GPS
+# Módulo 07: Projeto - Sistema de Navegação GPS
 
 ## Objetivo
 Simular um GPS que encontra a rota mais rápida entre duas cidades, considerando distâncias (pesos).

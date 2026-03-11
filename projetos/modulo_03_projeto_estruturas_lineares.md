@@ -1,4 +1,4 @@
-# Módulo 02: Projeto - Simulador de Navegador Web
+# Módulo 03: Projeto - Simulador de Navegador Web
 
 ## Objetivo
 Criar um sistema simples que simule o histórico de navegação de um browser (Navegador Web) utilizando Pilhas.

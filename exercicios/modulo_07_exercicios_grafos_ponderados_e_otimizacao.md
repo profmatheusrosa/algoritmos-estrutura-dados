@@ -1,4 +1,4 @@
-# Módulo 06: Exercícios - Grafos Ponderados
+# Módulo 07: Exercícios - Grafos Ponderados
 
 ## Exercício Prático 1: Dijkstra Manual
 

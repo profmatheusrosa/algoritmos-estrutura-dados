@@ -1,4 +1,4 @@
-# Módulo 03: Exercícios - HashMaps e Dicionários
+# Módulo 04: Exercícios - HashMaps e Dicionários
 
 ## Exercício Prático 1: Encontrar Duplicatas
 

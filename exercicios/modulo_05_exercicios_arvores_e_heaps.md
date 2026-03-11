@@ -1,4 +1,4 @@
-# Módulo 04: Exercícios - Árvores e Heaps
+# Módulo 05: Exercícios - Árvores e Heaps
 
 ## Exercício Prático 1: Validar BST
 

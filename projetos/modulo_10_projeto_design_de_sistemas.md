@@ -1,4 +1,4 @@
-# Módulo 09: Projeto - Arquitetura de Encurtador de URL
+# Módulo 10: Projeto - Arquitetura de Encurtador de URL
 
 ## Objetivo
 Implementar a lógica central de um Encurtador de URLs, focando na eficiência da geração de chaves e na estrutura de dados simulada.
