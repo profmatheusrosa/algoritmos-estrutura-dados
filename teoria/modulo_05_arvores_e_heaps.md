@@ -34,6 +34,12 @@ Como percorrer todos os nós?
 2.  **In-ordem:** Esquerda -> Raiz -> Direita
 3.  **Pós-ordem:** Esquerda -> Direita -> Raiz
 
+> [!TIP]
+> **Dica de Memorização:** Repare que o nome da travessia (Pré, In, Pós) indica exatamente **quando** você visita a **Raiz**! A ordem dos filhos nunca muda (sempre Esquerda e depois Direita).
+> - **Pré**-ordem: A Raiz vem **antes** (primeiro).
+> - **In**-ordem: A Raiz fica no **meio** (entre os filhos).
+> - **Pós**-ordem: A Raiz vem **depois** (por último).
+
 ---
 
 ## 3. Árvores Binárias de Busca (BST)
